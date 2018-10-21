@@ -1,0 +1,16 @@
+{
+    "port": 3000,
+    "mongoose": {
+        "uri": "mongodb://[YOUR DB]",
+        "options": {
+            "keepAlive": true,
+            "useNewUrlParser": true,
+            "useCreateIndex" : true
+        }
+    },
+    "session": {
+        "secret": "[YOUR SECRET STRING]",
+        "key": "sid"    
+    },
+    "chat_ip": "[CHAT ADDRESS]"
+}
